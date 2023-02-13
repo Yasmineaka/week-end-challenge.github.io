@@ -1,0 +1,82 @@
+*{
+    position: absolute;
+    left: 40%;
+    bottom: 1.5cm;
+}
+
+div{
+    width: 90%;
+    height: 20px;
+    margin: auto;
+    box-sizing: border-box;
+   }
+
+   .cercle{
+    background-color: green;
+    animation-name: couleur;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width: 140px;
+    border-radius: 100px;
+    height: 140px;
+}
+
+@keyframes couleur{
+    from{
+        background-color: green;
+        animation-name: couleur;
+   
+       
+        width: 140px;
+        border-radius: 100px;
+        height: 140px;
+    }
+    30%{
+        background-color: yellow;
+        width: 200px;
+        border-radius: 75px;
+        height:200px ;
+    }
+    40%{
+        background-color: yellowgreen;
+        width: 250px;
+        border-radius: 50px;
+        height: 250px;
+    }
+    50%{
+        background-color: orange;
+        width: 300px;
+        border-radius: 25px;
+        height: 300px;
+    }
+    60%{
+        background-color: red;
+        width: 350px;
+        border-radius: 0;
+        height: 350px;
+    }
+    70%{
+        background-color: orange;
+        width: 305px;
+        border-radius: 25px;
+        height: 300px;
+    }
+    80%{
+        background-color: yellowgreen;
+        width: 250px;
+        border-radius: 50px;
+        height: 250px;
+    } 
+    90%{
+        background-color: yellow;
+        width: 200px;
+        border-radius: 75px;
+        height:200px ;
+    }
+    100%{
+        background-color: green;
+        width: 140px;
+        border-radius: 100px;
+        height: 140px;
+      }
+    }
